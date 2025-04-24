@@ -3,12 +3,12 @@
 **Goal** Use python with OpenCV and EasyOCR to perform automatic number plate recognition.
 
 **Steps**
-Install and Import Dependencies
-Read in Image, Grayscale and blur
-Apply filter and find edges for localization
-Find Contours and apply mask
-EasyOCR to read text
-Render Result
+1. Install and Import Dependencies.
+2. Read in Image, Grayscale and blur.
+3. Apply filter and find edges for localization.
+4. Find Contours and apply mask
+5. EasyOCR to read text
+6. Render Result.
 
 **Key Dependencies Used**
 PyTorch is an open-source machine learning library based on the Torch library, used to build models for applications such as deep learning, computer vision, image recognition, and natural language processing. Pytorch is designed to be flexible and provides stability. We need Pytorch installed to facilitate using EasyOCR. 
